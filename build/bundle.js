@@ -2955,7 +2955,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (112:2) {:else}
+    // (130:2) {:else}
     function create_else_block$1(ctx) {
     	let p;
 
@@ -2963,7 +2963,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			p.textContent = "loading...";
-    			add_location(p, file$2, 113, 4, 2739);
+    			add_location(p, file$2, 131, 4, 3329);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -2977,14 +2977,14 @@ var app = (function () {
     		block,
     		id: create_else_block$1.name,
     		type: "else",
-    		source: "(112:2) {:else}",
+    		source: "(130:2) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:2) {#each photos as photo}
+    // (125:2) {#each photos as photo}
     function create_each_block(ctx) {
     	let figure;
     	let img;
@@ -3006,11 +3006,11 @@ var app = (function () {
     			t2 = space();
     			if (img.src !== (img_src_value = /*photo*/ ctx[1].thumbnailUrl)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*photo*/ ctx[1].title);
-    			attr_dev(img, "class", "svelte-1u00rez");
-    			add_location(img, file$2, 108, 6, 2558);
-    			add_location(figcaption, file$2, 109, 6, 2615);
-    			attr_dev(figure, "class", "svelte-1u00rez");
-    			add_location(figure, file$2, 107, 4, 2543);
+    			attr_dev(img, "class", "svelte-1xibmtz");
+    			add_location(img, file$2, 126, 6, 3148);
+    			add_location(figcaption, file$2, 127, 6, 3205);
+    			attr_dev(figure, "class", "svelte-1xibmtz");
+    			add_location(figure, file$2, 125, 4, 3133);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, figure, anchor);
@@ -3040,7 +3040,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(107:2) {#each photos as photo}",
+    		source: "(125:2) {#each photos as photo}",
     		ctx
     	});
 
@@ -3050,55 +3050,61 @@ var app = (function () {
     function create_fragment$4(ctx) {
     	let div0;
     	let t0;
-    	let div11;
+    	let div13;
     	let ul;
     	let li0;
-    	let div2;
+    	let div3;
     	let img0;
     	let img0_src_value;
     	let t1;
-    	let div1;
+    	let div2;
     	let h10;
     	let t3;
+    	let div1;
+    	let a0;
+    	let t5;
     	let li1;
-    	let div4;
+    	let div5;
     	let img1;
     	let img1_src_value;
-    	let t4;
-    	let div3;
-    	let h11;
     	let t6;
+    	let div4;
+    	let h11;
+    	let t8;
     	let li2;
-    	let div6;
+    	let div7;
     	let img2;
     	let img2_src_value;
-    	let t7;
-    	let div5;
-    	let h3;
     	let t9;
+    	let div6;
+    	let h3;
+    	let t11;
     	let li3;
-    	let div8;
+    	let div9;
     	let img3;
     	let img3_src_value;
-    	let t10;
-    	let div7;
-    	let h12;
     	let t12;
+    	let div8;
+    	let h12;
+    	let t14;
     	let li4;
-    	let div10;
+    	let div12;
     	let img4;
     	let img4_src_value;
-    	let t13;
-    	let div9;
-    	let h13;
     	let t15;
-    	let a0;
-    	let t16;
-    	let a1;
+    	let div11;
+    	let h13;
     	let t17;
-    	let h14;
+    	let div10;
+    	let a1;
     	let t19;
-    	let div12;
+    	let a2;
+    	let t20;
+    	let a3;
+    	let t21;
+    	let h14;
+    	let t23;
+    	let div14;
     	let each_value = /*photos*/ ctx[0];
     	validate_each_argument(each_value);
     	let each_blocks = [];
@@ -3117,56 +3123,64 @@ var app = (function () {
     		c: function create() {
     			div0 = element("div");
     			t0 = space();
-    			div11 = element("div");
+    			div13 = element("div");
     			ul = element("ul");
     			li0 = element("li");
-    			div2 = element("div");
+    			div3 = element("div");
     			img0 = element("img");
     			t1 = space();
-    			div1 = element("div");
+    			div2 = element("div");
     			h10 = element("h1");
-    			h10.textContent = "x-large";
+    			h10.textContent = "this is a lightbox";
     			t3 = space();
+    			div1 = element("div");
+    			a0 = element("a");
+    			a0.textContent = "Create Style Boards";
+    			t5 = space();
     			li1 = element("li");
-    			div4 = element("div");
+    			div5 = element("div");
     			img1 = element("img");
-    			t4 = space();
-    			div3 = element("div");
+    			t6 = space();
+    			div4 = element("div");
     			h11 = element("h1");
     			h11.textContent = "x-large";
-    			t6 = space();
+    			t8 = space();
     			li2 = element("li");
-    			div6 = element("div");
+    			div7 = element("div");
     			img2 = element("img");
-    			t7 = space();
-    			div5 = element("div");
+    			t9 = space();
+    			div6 = element("div");
     			h3 = element("h3");
     			h3.textContent = "Title sample custom fonts";
-    			t9 = space();
+    			t11 = space();
     			li3 = element("li");
-    			div8 = element("div");
+    			div9 = element("div");
     			img3 = element("img");
-    			t10 = space();
-    			div7 = element("div");
+    			t12 = space();
+    			div8 = element("div");
     			h12 = element("h1");
     			h12.textContent = "4";
-    			t12 = space();
+    			t14 = space();
     			li4 = element("li");
-    			div10 = element("div");
-    			img4 = element("img");
-    			t13 = space();
-    			div9 = element("div");
-    			h13 = element("h1");
-    			h13.textContent = "5";
-    			t15 = space();
-    			a0 = element("a");
-    			t16 = space();
-    			a1 = element("a");
-    			t17 = space();
-    			h14 = element("h1");
-    			h14.textContent = "Photo album";
-    			t19 = space();
     			div12 = element("div");
+    			img4 = element("img");
+    			t15 = space();
+    			div11 = element("div");
+    			h13 = element("h1");
+    			h13.textContent = "this is a lightbox";
+    			t17 = space();
+    			div10 = element("div");
+    			a1 = element("a");
+    			a1.textContent = "Create Style Boards";
+    			t19 = space();
+    			a2 = element("a");
+    			t20 = space();
+    			a3 = element("a");
+    			t21 = space();
+    			h14 = element("h1");
+    			h14.textContent = "shop collections";
+    			t23 = space();
+    			div14 = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
@@ -3177,85 +3191,100 @@ var app = (function () {
     			}
 
     			attr_dev(div0, "class", "uk-margin-top");
-    			add_location(div0, file$2, 32, 0, 472);
+    			add_location(div0, file$2, 28, 0, 423);
     			if (img0.src !== (img0_src_value = "https://whimlovestyles.netlify.app/images/trio2-p-1080.jpeg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			attr_dev(img0, "class", "svelte-1u00rez");
-    			add_location(img0, file$2, 40, 8, 716);
-    			attr_dev(h10, "class", "uk-heading-2xlarge bohemian");
-    			add_location(h10, file$2, 44, 10, 877);
-    			attr_dev(div1, "class", "uk-position-center uk-panel");
-    			add_location(div1, file$2, 43, 8, 825);
-    			attr_dev(div2, "class", "uk-panel");
-    			add_location(div2, file$2, 39, 6, 685);
+    			attr_dev(img0, "class", "svelte-1xibmtz");
+    			add_location(img0, file$2, 36, 8, 667);
+    			attr_dev(h10, "class", "bohemian");
+    			add_location(h10, file$2, 40, 10, 828);
+    			attr_dev(a0, "class", "uk-button uk-button-secondary");
+    			attr_dev(a0, "href", "https://whimlovedressingroom.netlify.app/");
+    			attr_dev(a0, "data-caption", "Instructions");
+    			attr_dev(a0, "data-type", "iframe");
+    			add_location(a0, file$2, 44, 12, 915);
+    			attr_dev(div1, "uk-lightbox", "");
+    			add_location(div1, file$2, 42, 10, 884);
+    			attr_dev(div2, "class", "uk-position-center uk-panel");
+    			add_location(div2, file$2, 39, 8, 776);
+    			attr_dev(div3, "class", "uk-panel");
+    			add_location(div3, file$2, 35, 6, 636);
     			attr_dev(li0, "class", "uk-width-3-4");
-    			add_location(li0, file$2, 38, 4, 653);
+    			add_location(li0, file$2, 34, 4, 604);
     			if (img1.src !== (img1_src_value = "https://whimlovestyles.netlify.app/images/trio2-p-1080.jpeg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
-    			attr_dev(img1, "class", "svelte-1u00rez");
-    			add_location(img1, file$2, 50, 8, 1035);
+    			attr_dev(img1, "class", "svelte-1xibmtz");
+    			add_location(img1, file$2, 57, 8, 1282);
     			attr_dev(h11, "class", "uk-heading-2xlarge");
-    			add_location(h11, file$2, 54, 10, 1196);
-    			attr_dev(div3, "class", "uk-position-center uk-panel");
-    			add_location(div3, file$2, 53, 8, 1144);
-    			attr_dev(div4, "class", "uk-panel");
-    			add_location(div4, file$2, 49, 6, 1004);
+    			add_location(h11, file$2, 61, 10, 1443);
+    			attr_dev(div4, "class", "uk-position-center uk-panel");
+    			add_location(div4, file$2, 60, 8, 1391);
+    			attr_dev(div5, "class", "uk-panel");
+    			add_location(div5, file$2, 56, 6, 1251);
     			attr_dev(li1, "class", "uk-width-3-4");
-    			add_location(li1, file$2, 48, 4, 972);
+    			add_location(li1, file$2, 55, 4, 1219);
     			if (img2.src !== (img2_src_value = "https://whimlovestyles.netlify.app/images/trio2-p-1080.jpeg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
-    			attr_dev(img2, "class", "svelte-1u00rez");
-    			add_location(img2, file$2, 60, 8, 1345);
+    			attr_dev(img2, "class", "svelte-1xibmtz");
+    			add_location(img2, file$2, 67, 8, 1592);
     			attr_dev(h3, "class", "bohemian");
-    			add_location(h3, file$2, 64, 10, 1506);
-    			attr_dev(div5, "class", "uk-position-center uk-panel");
-    			add_location(div5, file$2, 63, 8, 1454);
-    			attr_dev(div6, "class", "uk-panel");
-    			add_location(div6, file$2, 59, 6, 1314);
+    			add_location(h3, file$2, 71, 10, 1753);
+    			attr_dev(div6, "class", "uk-position-center uk-panel");
+    			add_location(div6, file$2, 70, 8, 1701);
+    			attr_dev(div7, "class", "uk-panel");
+    			add_location(div7, file$2, 66, 6, 1561);
     			attr_dev(li2, "class", "uk-width-3-4");
-    			add_location(li2, file$2, 58, 4, 1282);
+    			add_location(li2, file$2, 65, 4, 1529);
     			if (img3.src !== (img3_src_value = "https://whimlovestyles.netlify.app/images/trio2-p-1080.jpeg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "");
-    			attr_dev(img3, "class", "svelte-1u00rez");
-    			add_location(img3, file$2, 70, 8, 1663);
-    			add_location(h12, file$2, 74, 10, 1824);
-    			attr_dev(div7, "class", "uk-position-center uk-panel");
-    			add_location(div7, file$2, 73, 8, 1772);
-    			attr_dev(div8, "class", "uk-panel");
-    			add_location(div8, file$2, 69, 6, 1632);
+    			attr_dev(img3, "class", "svelte-1xibmtz");
+    			add_location(img3, file$2, 77, 8, 1910);
+    			add_location(h12, file$2, 81, 10, 2071);
+    			attr_dev(div8, "class", "uk-position-center uk-panel");
+    			add_location(div8, file$2, 80, 8, 2019);
+    			attr_dev(div9, "class", "uk-panel");
+    			add_location(div9, file$2, 76, 6, 1879);
     			attr_dev(li3, "class", "uk-width-3-4");
-    			add_location(li3, file$2, 68, 4, 1600);
+    			add_location(li3, file$2, 75, 4, 1847);
     			if (img4.src !== (img4_src_value = "https://whimlovestyles.netlify.app/images/trio2-p-1080.jpeg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "");
-    			attr_dev(img4, "class", "svelte-1u00rez");
-    			add_location(img4, file$2, 80, 8, 1940);
-    			add_location(h13, file$2, 84, 10, 2101);
-    			attr_dev(div9, "class", "uk-position-center uk-panel");
-    			add_location(div9, file$2, 83, 8, 2049);
-    			attr_dev(div10, "class", "uk-panel");
-    			add_location(div10, file$2, 79, 6, 1909);
+    			attr_dev(img4, "class", "svelte-1xibmtz");
+    			add_location(img4, file$2, 87, 8, 2187);
+    			attr_dev(h13, "class", "bohemian");
+    			add_location(h13, file$2, 91, 10, 2348);
+    			attr_dev(a1, "class", "uk-button uk-button-secondary");
+    			attr_dev(a1, "href", "https://whimlovedressingroom.netlify.app/");
+    			attr_dev(a1, "data-caption", "Instructions");
+    			attr_dev(a1, "data-type", "iframe");
+    			add_location(a1, file$2, 95, 12, 2435);
+    			attr_dev(div10, "uk-lightbox", "");
+    			add_location(div10, file$2, 93, 10, 2404);
+    			attr_dev(div11, "class", "uk-position-center uk-panel");
+    			add_location(div11, file$2, 90, 8, 2296);
+    			attr_dev(div12, "class", "uk-panel");
+    			add_location(div12, file$2, 86, 6, 2156);
     			attr_dev(li4, "class", "uk-width-3-4");
-    			add_location(li4, file$2, 78, 4, 1877);
+    			add_location(li4, file$2, 85, 4, 2124);
     			attr_dev(ul, "class", "uk-slider-items uk-grid");
-    			add_location(ul, file$2, 37, 2, 612);
-    			attr_dev(a0, "class", "uk-position-center-left uk-position-small uk-hidden-hover");
-    			attr_dev(a0, "href", "#");
-    			attr_dev(a0, "uk-slidenav-previous", "");
-    			attr_dev(a0, "uk-slider-item", "previous");
-    			add_location(a0, file$2, 90, 2, 2161);
-    			attr_dev(a1, "class", "uk-position-center-right uk-position-small uk-hidden-hover");
-    			attr_dev(a1, "href", "#");
-    			attr_dev(a1, "uk-slidenav-next", "");
-    			attr_dev(a1, "uk-slider-item", "next");
-    			add_location(a1, file$2, 95, 2, 2307);
-    			attr_dev(div11, "class", "uk-position-relative uk-visible-toggle uk-light ");
-    			attr_dev(div11, "tabindex", "-1");
-    			attr_dev(div11, "uk-slider", "center: true");
-    			add_location(div11, file$2, 33, 0, 502);
+    			add_location(ul, file$2, 33, 2, 563);
+    			attr_dev(a2, "class", "uk-position-center-left uk-position-small uk-hidden-hover");
+    			attr_dev(a2, "href", "#");
+    			attr_dev(a2, "uk-slidenav-previous", "");
+    			attr_dev(a2, "uk-slider-item", "previous");
+    			add_location(a2, file$2, 108, 2, 2746);
+    			attr_dev(a3, "class", "uk-position-center-right uk-position-small uk-hidden-hover");
+    			attr_dev(a3, "href", "#");
+    			attr_dev(a3, "uk-slidenav-next", "");
+    			attr_dev(a3, "uk-slider-item", "next");
+    			add_location(a3, file$2, 113, 2, 2892);
+    			attr_dev(div13, "class", "uk-position-relative uk-visible-toggle uk-light ");
+    			attr_dev(div13, "tabindex", "-1");
+    			attr_dev(div13, "uk-slider", "center: true");
+    			add_location(div13, file$2, 29, 0, 453);
     			attr_dev(h14, "class", "bohemian");
-    			add_location(h14, file$2, 103, 0, 2453);
-    			attr_dev(div12, "class", "photos svelte-1u00rez");
-    			add_location(div12, file$2, 105, 0, 2492);
+    			add_location(h14, file$2, 121, 0, 3038);
+    			attr_dev(div14, "class", "photos svelte-1xibmtz");
+    			add_location(div14, file$2, 123, 0, 3082);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3263,57 +3292,63 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, div0, anchor);
     			insert_dev(target, t0, anchor);
-    			insert_dev(target, div11, anchor);
-    			append_dev(div11, ul);
+    			insert_dev(target, div13, anchor);
+    			append_dev(div13, ul);
     			append_dev(ul, li0);
-    			append_dev(li0, div2);
-    			append_dev(div2, img0);
-    			append_dev(div2, t1);
+    			append_dev(li0, div3);
+    			append_dev(div3, img0);
+    			append_dev(div3, t1);
+    			append_dev(div3, div2);
+    			append_dev(div2, h10);
+    			append_dev(div2, t3);
     			append_dev(div2, div1);
-    			append_dev(div1, h10);
-    			append_dev(ul, t3);
+    			append_dev(div1, a0);
+    			append_dev(ul, t5);
     			append_dev(ul, li1);
-    			append_dev(li1, div4);
-    			append_dev(div4, img1);
-    			append_dev(div4, t4);
-    			append_dev(div4, div3);
-    			append_dev(div3, h11);
-    			append_dev(ul, t6);
+    			append_dev(li1, div5);
+    			append_dev(div5, img1);
+    			append_dev(div5, t6);
+    			append_dev(div5, div4);
+    			append_dev(div4, h11);
+    			append_dev(ul, t8);
     			append_dev(ul, li2);
-    			append_dev(li2, div6);
-    			append_dev(div6, img2);
-    			append_dev(div6, t7);
-    			append_dev(div6, div5);
-    			append_dev(div5, h3);
-    			append_dev(ul, t9);
+    			append_dev(li2, div7);
+    			append_dev(div7, img2);
+    			append_dev(div7, t9);
+    			append_dev(div7, div6);
+    			append_dev(div6, h3);
+    			append_dev(ul, t11);
     			append_dev(ul, li3);
-    			append_dev(li3, div8);
-    			append_dev(div8, img3);
-    			append_dev(div8, t10);
-    			append_dev(div8, div7);
-    			append_dev(div7, h12);
-    			append_dev(ul, t12);
+    			append_dev(li3, div9);
+    			append_dev(div9, img3);
+    			append_dev(div9, t12);
+    			append_dev(div9, div8);
+    			append_dev(div8, h12);
+    			append_dev(ul, t14);
     			append_dev(ul, li4);
-    			append_dev(li4, div10);
-    			append_dev(div10, img4);
-    			append_dev(div10, t13);
-    			append_dev(div10, div9);
-    			append_dev(div9, h13);
-    			append_dev(div11, t15);
-    			append_dev(div11, a0);
-    			append_dev(div11, t16);
-    			append_dev(div11, a1);
-    			insert_dev(target, t17, anchor);
+    			append_dev(li4, div12);
+    			append_dev(div12, img4);
+    			append_dev(div12, t15);
+    			append_dev(div12, div11);
+    			append_dev(div11, h13);
+    			append_dev(div11, t17);
+    			append_dev(div11, div10);
+    			append_dev(div10, a1);
+    			append_dev(div13, t19);
+    			append_dev(div13, a2);
+    			append_dev(div13, t20);
+    			append_dev(div13, a3);
+    			insert_dev(target, t21, anchor);
     			insert_dev(target, h14, anchor);
-    			insert_dev(target, t19, anchor);
-    			insert_dev(target, div12, anchor);
+    			insert_dev(target, t23, anchor);
+    			insert_dev(target, div14, anchor);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(div12, null);
+    				each_blocks[i].m(div14, null);
     			}
 
     			if (each_1_else) {
-    				each_1_else.m(div12, null);
+    				each_1_else.m(div14, null);
     			}
     		},
     		p: function update(ctx, [dirty]) {
@@ -3330,7 +3365,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(div12, null);
+    						each_blocks[i].m(div14, null);
     					}
     				}
 
@@ -3348,7 +3383,7 @@ var app = (function () {
     				} else if (!each_1_else) {
     					each_1_else = create_else_block$1(ctx);
     					each_1_else.c();
-    					each_1_else.m(div12, null);
+    					each_1_else.m(div14, null);
     				}
     			}
     		},
@@ -3357,11 +3392,11 @@ var app = (function () {
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div0);
     			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(div11);
-    			if (detaching) detach_dev(t17);
+    			if (detaching) detach_dev(div13);
+    			if (detaching) detach_dev(t21);
     			if (detaching) detach_dev(h14);
-    			if (detaching) detach_dev(t19);
-    			if (detaching) detach_dev(div12);
+    			if (detaching) detach_dev(t23);
+    			if (detaching) detach_dev(div14);
     			destroy_each(each_blocks, detaching);
     			if (each_1_else) each_1_else.d();
     		}
